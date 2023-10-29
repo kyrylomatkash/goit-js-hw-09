@@ -16,3 +16,83 @@ img {
   display: block;
   max-width: 100%;
 }
+#color-display {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 20px;
+  border: 2px solid black;
+  background: white;
+}
+a {
+  text-decoration: none;
+  color: blue;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+#datetime-picker {
+  padding: 8px;
+  margin: 10px 0;
+}
+
+button[data-start] {
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+
+.timer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.field {
+  text-align: center;
+  margin: 0 10px;
+}
+
+.value {
+  font-size: 24px;
+  font-weight: bold;
+  display: block;
+  padding: 10px;
+  background-color: #f3f3f3;
+  border-radius: 5px;
+}
+
+.label {
+  font-size: 14px;
+  color: #777;
+  margin-top: 5px;
+}
+input {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+button[type="submit"],.stop-button {
+  padding: 10px 20px;
+  background-color: red;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+button[type="submit"],.start-button,.create-button {
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
