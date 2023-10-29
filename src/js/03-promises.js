@@ -12,11 +12,13 @@ form.addEventListener('submit', event => {
   for (let i = 0; i < amount; i++) {
     createPromise(i, delay + step * i)
       .then(({ position, delay }) => {
+        // Сповіщення успіху
         Notiflix.Notify.success(
           `Успішно ${position} in ${delay}ms`
         );
       })
       .catch(({ position, delay }) => {
+        // Сповіщення помилки
         Notiflix.Notify.failure(
           `Відхилено ${position} in ${delay}ms`
         );

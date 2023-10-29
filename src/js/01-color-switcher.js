@@ -16,6 +16,7 @@ let randomTimer = null;
       document.body.style.backgroundColor = randomColor;
       colorDisplay.textContent = randomColor;
     }, 1000);
+    // Відключення кнопки
     startSwitcherButton.setAttribute('disabled', '');
   };
   startSwitcherButton.addEventListener('click', clickStart);

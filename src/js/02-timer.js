@@ -23,7 +23,7 @@ const displayHours = document.querySelector("span[data-hours]");
 const displayMinutes = document.querySelector("span[data-minutes]");
 const displaySeconds = document.querySelector("span[data-seconds]");
 startButton.addEventListener('click', startCountdown);
-
+// Змінні часу
 let timerTime = null;
 const currentDate = new Date();
 // Логіка для вибору дати
