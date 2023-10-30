@@ -80,7 +80,7 @@ input {
   border: 1px solid #ccc;
   border-radius: 5px;
 }
-button[type="submit"],.stop-button {
+button[type="submit"],button[data-stop] {
   padding: 10px 20px;
   background-color: red;
   color: white;
